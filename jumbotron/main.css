@@ -1,0 +1,37 @@
+/*.headline{
+    font-size: 60px;
+}
+
+.headlineBanner{
+    background: whitesmoke;
+    padding-left: 55px;
+    padding-right: 45px;
+}
+
+ .banner{
+    background: black;
+    height: 50px;
+}
+
+.bodyBanner{
+    padding-left: 55px;
+    padding-right: 45px;
+}
+
+form{
+    line-height: 50px;
+    text-align:right;
+}
+
+a{
+    line-height: 50px;
+    color: gray;
+    padding-left: 60px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}*/
+
+/* I found out after making it all look similar with the above CSS that there was another section for nav bars that allowed me to get the same affect without using CSS at all. I was unable to figure out the hamburger menu at this time */
