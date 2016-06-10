@@ -1,0 +1,41 @@
+body{
+    background: #66b8d9;
+}
+
+.navigationBar{
+    background: #2a4c59;
+    height: 75px;
+    line-height: 75px;
+}
+
+.navigationBar li{
+    display: inline-block;
+}
+
+.navigationBar li a{
+    color: white;
+    font-family: Optima, Monotype;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigationBar li a:hover {
+    background: #687e87;
+}
+
+img{
+    margin: 0 auto;
+}
+
+.bodyContent{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#logo{
+    color: #66B8D9;
+    font-size: 40px;
+    font-family: cursive;
+}

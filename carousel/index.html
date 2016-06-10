@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html> <!-- add the ng-app directive -->
+
+    <head>
+        <title>My Pantry</title>
+        <!-- jQuerey -->
+        <script rel='javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js'></script>
+        <!-- CSS Framework -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css'></script>
+        <!-- Personal CSS -->
+        <link rel='stylesheet' href='mypantry.css'></script>
+        <!-- Angular -->
+        <script rel='javascript' src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js'></script>
+    </head>
+    
+    <body>
+      <nav class="navigationBar custom-collapse">
+        <li id='logo'>MyPantry</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Pantry</a></li>
+        <li><a href="#">Recipe Search</a></li>
+        <li><a href="#">My Grocery List</a></li>
+        <li><a href="#">My Cookbook</a></li>
+      </nav>
+      
+      <div id="carousel" class="carousel slide container" data-ride="carousel" data-interval="3000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2" class='active'></li>
+        </ol>
+ 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item">
+          <img src="http://all4desktop.com/data_images/original/4244780-food.jpg" alt="Steak and Vegetables" height="300" width="750">
+            <div class="carousel-caption">
+      	      <h3>Cook gourmet meals from your own kitchen</h3>
+            </div>
+          </div>
+          
+          <div class="item">
+          <img src="http://www.awakentheabswithin.com/wp-content/uploads/2012/01/healthy-meal.jpg" alt="Grilled Chicken Salad" height="300" width="750">
+            <div class="carousel-caption">
+      	      <h3>Use what is in your pantry to make this</h3>
+            </div>
+          </div>
+          
+          <div class="item active">
+          <img src="http://www.seeyourinterest.com/wp-content/uploads/2013/08/healthy-meal.jpg" alt="Ravioli Pasta" height="300" width="750">
+            <div class="carousel-caption">
+      	      <h3>Impress friends and family with decadent dishes</h3>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div> 
+
+      <div class='container'>
+        <div class='bodyContent col-md-4'>
+          <img class='img-circle' src='http://www.boostoyshop.co.uk/image/cache/data/Preschool/Food%20Groups-140x140.jpg'>
+          <h3>Save Ingredients to Your Pantry!</h3>
+          <p>Search for recipes based on the ingredients you already have at home. Spend less time searching through recipes and making trips to the grocery store.</p>
+        </div>
+        
+        <div class='bodyContent col-md-4'>
+          <img class='img-circle' src='http://cdn8.staztic.com/app/a/2937/2937474/recipe-card-1-l-140x140.png'>
+          <h3>Search database of over 1 million recipes!</h3>
+          <p>Feel like searching through an enormous database of tasty recipes? Use the basic keyword search to find a recipe you would like to try out.</p>
+        </div>
+        
+        <div class='bodyContent col-md-4'>
+          <img class='img-circle' src='http://cdn8.staztic.com/app/i/3517/3517346/grocery-list-online-sync-1-42410-l-140x140.png'>
+          <h3>Create a personalized groccery list</h3>
+          <p>Find what you want to cook but do not have all the ingrdients? click the ingredients you do not have in the recipe and it will add you your grocery list.</p>
+        </div>
+        <hr>
+      </div>
+
+        
+        
+        <!-- Personal JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js"></script>
+        <script rel='javascript' src='main.js'></script>
+    </body>
+</html>
+
